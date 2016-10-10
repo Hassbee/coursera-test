@@ -1,26 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Mod2</title>
-<link rel="stylesheet" type="text/css" href="style.css">
 <style>
 
 /********** Base styles **********/
 * {
   box-sizing: border-box;
-  margin: 0
-  padding:0;
 }
 h1 {
   margin-bottom: 15px;
   text-align: center;
 }
 
-div#container{
+div#container {
   position: relative;
-  background-color: #ffffff;
-
+  background-color: #ffffff
+  
 }
 
 p {
@@ -28,48 +20,32 @@ p {
   background-color: #696969;
   width: 90%;
   height: 150px;
-  padding-top: 30px;
+  padding-top: : 20px;
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
   color: white;
   
-}
-
-#p1 {
-  position: absolute;
-  top: 0;
-  background-color: #18fffe;
-  width: 80px;
-  height: 25px;
-  text-align: center;
-
- 
-
-}
-
-#p2 {
-  position:absolute;
-  top: 0;
-  background-color: #dcb58d;
-  width: 80px;
-  height: 25px;
-  text-align: center; 
-  clear:right; 
-
-
- 
-}
-
-#p3 {
-  position: absolute;
-  top: 0;
-  background-color: #8d1e2f;
-  width: 80px;
-  height: 25px;
-  text-align: center;
   
+}
+#p1 {
+  background-color: #A52A2A;
+ 
+  width: 80px;
+  height: 35px;
+  position: absolute;
+  top: 0;
 
+}
+#p2 {
+  background-color: #DEB887;
+   width: 80px;
+  height: 35px;
+}
+#p3 {
+  background-color: #5F9EA0;
+   width: 80px;
+  height: 35px;
 }
 
 
@@ -83,7 +59,7 @@ p {
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    
+   
   }
   .col-lg-1 {
     width: 8.33%;
@@ -124,7 +100,7 @@ p {
 }
 
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 950px) and (max-width: 1199px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
     
@@ -167,26 +143,4 @@ p {
   }
 }
 
-
 </style>
-</head>
-<body>
-<h1>Our Menu</h1>
-
-<div id="container">
-<div class="row">
-  <div class="col-lg-4 col-md-6"><p>finger licking chicken just eat your children will pay </p><div id="p1">Chicken</div></div>
-  <div class="col-lg-4 col-md-6"><p>Beef from the most seductive cows that willl make you very charming</p><div id="p2">Beef</div></div>
-  <div class="col-lg-4 col-md-12"><p>Karate sushi! Prepared by Mr. Kesuke Miyagi</p><div id="p3"><section>Sushi</section></div></div>
- 
- 
- 
- 
-</div>
-
-</body>
-</html>
-
-
-
-
